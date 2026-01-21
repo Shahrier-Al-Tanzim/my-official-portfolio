@@ -1,0 +1,85 @@
+Build me a portfolio website in NextJS
+- The ui would be nice and modern
+- The website would have a dark mode
+- The website would have a responsive design
+- The website would have a smooth animation
+- The website would have a smooth scrolling
+- The website would have a smooth navigation
+- The website would have a smooth transition
+- The website would have nice icons for projects and ifferent tabs 
+- there should be a picture named image.png in the public folder which will be replaced later
+- it should be deployable on vercel and we will use github for version control (dont do it yourself, rather uide me of doing it)
+
+- here is my cv info
+EDUCATION
+Shahrier Al Tanzim
+shahrier@iut-dhaka.edu | Shahrier-Al-Tanzim | shahrier-tanzim | 01760131119
+ISLAMIC UNIVERSITY OFTECHNOLOGY
+• B.Sc in Software Engineering(SWE)
+• CGPA:3.68 / 4.00
+SKILLS
+Gazipur, Bangladesh
+Jun 2021- Oct 2025
+PROGRAMMING : PHP,ReactJS, MySQL, HTML, CSS, C/C++, C#, JavaScript, Java, Python
+TOOLSANDTECHNOLOGIES : NodeJs, ExpressJS, Laravel, Spring Boot, Jupyter Notebook, Docker, CI/CD Pipeline, Microservices
+MANAGEMENTAPPLICATIONS : Trello, Jira
+EXPERIENCE
+RedDot Digital Limited (Software Engineer Intern)
+• HRISApplication:- Improved UI/UX by revamping icons, tooltips, and flash messages; proactively resolved persistent frontend issues.- Developed and deployed input logging modules with a dynamic log table, enhancing traceability and system auditing.- Tools : Composer,Laravel,PHP,HTML,CSS,MySQL,DBeaver
+• S&DMobileApp:- Conducted comprehensive black-box testing across web and mobile platforms to ensure feature reliability.
+(June- October) 2024- Identified, reported, and verified critical bugs in close collaboration with the development team, accelerating issue resolution.- Tools : Locust(PythonPackage)
+PROJECTS
+IUT SIKS
+A functional website- iutsiks.iutoic-dhaka.edu
+2025
+• Provides an online platform for the IUT SIKS society to publish updates, blogs, and event announcements. Supports user interactions such as blog
+posting, commenting, liking, participating in quizzes, and browsing upcoming events.
+• Tools : NextJS,Typescript, MongoDB,CI/CDVercel(Deployment)
+Patient Management System
+Spring Boot Application for patient management
+• Managespatients with basic CRUD application. Uses with GRPC and REST requests along with API gateway and dockerized modules..
+• Tools : SpringBoot,Java,Docker, Kafka, PostgreSQL, RESTful API, JWT
+IUT TRMS
+A Traffic management system
+2025
+2023
+• Detects vehicle license plates using a EasyOCR and pretrained YOLOv5 object detection model with high accuracy on a custom traffic dataset of
+benagli characters to detect bengali licsense plate. Records entry and exit times in a PostgreSQL database to facilitate automated traffic monitoring
+and reporting.
+• Tools : NodeJS,ExpressJS,JavaScript, HTML,CSS,PostgreSQL,Jupyter Notebook
+MOVIERECOMMENDATIONSYSTEM
+A Recommendation system by machine learning
+2023
+• Utilizes a k-Nearest Neighbors (k-NN) collaborative filtering model to recommend movies based on user input. It matches the mentioned movie title
+and suggests similar titles from a dataset of 10,000+ entries based on user rating patterns.
+• Tools : Python,pandas,scikit-learn, Jupyter Notebook
+LARAVELCRUDWEBSITE
+A Website using LARAVEL
+2023
+• Thisis the official website of a club of a university. Does user creation, authentiation, event create, read, update and delete with all the basic function
+alities needed
+• Tools: LARAVEL,PHP,BLADE
+PROGRAMMINGACHIEVEMENTS
+IUT Coderush Programming Contest
+1st Runners UP (Out of 80+ teams)
+Intra IUT Programming Contest
+2nd Runners (Out of 50+ teams)
+2023
+2021
+IUT Coderush 3.0 Programming Contest
+5th (Out of 60+ teams)
+Inter High School Programming Contest
+Divisional Champion (Divisional Round)
+Inter High School Programming Contest
+Divisional Champion (Divisional Round)
+EXTRACURRICULAR
+2025
+2019
+2018
+Competitive Programming
+1300+ Problems Solved, 230+ contest participation on various online platforms
+Codeforces: Ryuzaki_L_07 (Max Rating 1425)
+Codechef: ryuzaki_l_07 (3 ⋆| Max Rating 1646)
+Leetcode: Ryuzaki_L_07
+IUT Computer Society
+Mentored competitive programming classes of 60+ people
