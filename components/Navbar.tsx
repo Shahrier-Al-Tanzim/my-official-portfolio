@@ -42,7 +42,7 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
           >
-            SAT
+            Shahrier Al Tanzim
           </motion.div>
 
           {/* Desktop Navigation */}

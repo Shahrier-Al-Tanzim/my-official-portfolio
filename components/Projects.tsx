@@ -36,6 +36,7 @@ export default function Projects() {
       description: 'The official website of a university club. Does user creation, authentication, event create, read, update and delete with all the basic functionalities needed.',
       technologies: ['Laravel', 'PHP', 'Blade'],
     },
+
   ];
 
   return (
@@ -47,7 +48,7 @@ export default function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-[1.2] md:leading-[1.3] leading-[1.2] md:leading-[1.3]">
             Projects
           </h2>
 
