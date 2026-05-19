@@ -184,4 +184,3 @@ Your portfolio website is complete, bug-free, and ready for deployment!
 **Design Quality**: Premium  
 **Bug Count**: 0  
 
-Made with ❤️ using Next.js, TypeScript & Tailwind CSS

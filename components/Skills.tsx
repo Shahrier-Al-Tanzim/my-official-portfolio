@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { FaReact, FaPhp, FaJava, FaPython, FaDocker, FaNodeJs } from 'react-icons/fa';
-import { SiTypescript, SiMysql, SiLaravel, SiSpringboot, SiJira, SiTrello } from 'react-icons/si';
+import { SiTypescript, SiMysql, SiLaravel, SiSpringboot, SiJira, SiTrello, SiFastapi, SiNextdotjs, SiOpencv, SiPostgresql, SiExpress, SiPrisma, SiRedux, SiSentry } from 'react-icons/si';
 
 export default function Skills() {
   const skillCategories = [
@@ -13,6 +13,7 @@ export default function Skills() {
         { name: 'ReactJS', icon: FaReact, color: 'text-cyan-500' },
         { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-600' },
         { name: 'MySQL', icon: SiMysql, color: 'text-blue-700' },
+        { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-500' },
         { name: 'JavaScript', icon: FaNodeJs, color: 'text-yellow-500' },
         { name: 'Java', icon: FaJava, color: 'text-red-600' },
         { name: 'Python', icon: FaPython, color: 'text-blue-500' },
@@ -21,10 +22,18 @@ export default function Skills() {
     {
       title: 'Tools & Technologies',
       skills: [
+        { name: 'React Native', icon: FaReact, color: 'text-cyan-500' },
+        { name: 'Next.js', icon: SiNextdotjs, color: 'text-black dark:text-white' },
         { name: 'NodeJS', icon: FaNodeJs, color: 'text-green-600' },
+        { name: 'Express', icon: SiExpress, color: 'text-gray-800 dark:text-gray-200' },
+        { name: 'FastAPI', icon: SiFastapi, color: 'text-teal-600' },
+        { name: 'Prisma', icon: SiPrisma, color: 'text-blue-900 dark:text-blue-400' },
+        { name: 'Redux', icon: SiRedux, color: 'text-purple-500' },
+        { name: 'Sentry', icon: SiSentry, color: 'text-red-500' },
         { name: 'Laravel', icon: SiLaravel, color: 'text-red-600' },
         { name: 'Spring Boot', icon: SiSpringboot, color: 'text-green-600' },
         { name: 'Docker', icon: FaDocker, color: 'text-blue-600' },
+        { name: 'OpenCV', icon: SiOpencv, color: 'text-green-500' },
       ],
     },
     {

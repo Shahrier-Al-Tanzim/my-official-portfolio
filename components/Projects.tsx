@@ -6,6 +6,21 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 export default function Projects() {
   const projects = [
     {
+      title: 'FinTrack',
+      year: '2026',
+      description: 'A comprehensive, cross-platform personal finance management application with a responsive React Native (Expo) frontend and a high-performance Node.js backend. Features secure JWT authentication, real-time balance calculations, Sentry observability with a custom backend tunneling solution, and full CRUD capabilities. Data is synchronized across web and mobile using PostgreSQL and Prisma ORM.',
+      technologies: ['React Native', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'Redux', 'Sentry'],
+      link: 'https://fintrack-mobile.onrender.com',
+      github: 'https://github.com/Shahrier-Al-Tanzim/fintrack',
+    },
+    {
+      title: 'Smart Drone Traffic Analyzer',
+      year: '2026',
+      description: 'A robust full-stack application that processes drone video footage to detect and track vehicles using a custom YOLOv8 and ByteTrack computer vision pipeline. Features a FastAPI backend with concurrent processing threads, real-time video streaming, and a Next.js frontend for live tracking statistics and automated report generation.',
+      technologies: ['Python', 'FastAPI', 'Next.js', 'React', 'YOLOv8', 'ByteTrack', 'OpenCV'],
+      github: 'https://github.com/Shahrier-Al-Tanzim/drone-traffic-analyzer',
+    },
+    {
       title: 'IUT SIKS',
       year: '2025',
       description: 'A functional website providing an online platform for the IUT SIKS society to publish updates, blogs, and event announcements. Supports user interactions such as blog posting, commenting, liking, participating in quizzes, and browsing upcoming events.',
@@ -87,17 +102,30 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
-                  >
-                    <FaExternalLinkAlt />
-                    Visit Website
-                  </a>
-                )}
+                <div className="flex flex-wrap gap-4">
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
+                    >
+                      <FaExternalLinkAlt />
+                      Visit Website
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 dark:bg-slate-700 text-white rounded-lg hover:bg-slate-700 dark:hover:bg-slate-600 transition-all duration-300 shadow-md"
+                    >
+                      <FaGithub />
+                      Source Code
+                    </a>
+                  )}
+                </div>
               </motion.div>
             ))}
           </div>
